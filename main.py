@@ -45,7 +45,7 @@ def start_timer():
 def count_down(count):
     count_min = int(count/60)   #or import math, math.floor(count/60)
     if count_min < 10:
-        count_min = f"0 {count_min}"
+        count_min = f"0{count_min}"
     """dynamic typing"""
 
     count_sec = count % 60
